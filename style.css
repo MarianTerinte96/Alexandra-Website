@@ -1,0 +1,132 @@
+body,html{
+	width:100%;
+	margin: 0;
+	height:100%;
+	background-image:url("images/poza model.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	position: relative;
+}
+.header_info
+{
+	position: relative;
+	padding:25px;
+	color:#ccc;
+	display:block;
+	clear:both;
+	height: auto;
+	width: 100%;
+	background-color:black;
+}
+.heading{
+	float:left;
+	position: absolute;
+	padding-left: 20%;
+	top:10px;
+
+
+}
+.heading h1{
+	font-family: Impact, serif;
+	font-size: 35px;
+	letter-spacing: -2px;
+	font-stretch: ultra-condensed;
+	font-weight:100;
+}
+.heading p{
+	margin:0px;
+	color:black;
+	font-family: Impact, serif;
+
+}
+.menu_div{
+	padding-right: 20%;
+	float:right;
+	right:0;
+	position: absolute;
+}
+.menu_div li{
+	margin:0;
+	padding:10px;
+	padding-bottom: 5px;
+	font-family: Impact, serif;
+}
+.menu_div li:hover{
+	background-color:red ;
+	color:fff;
+}
+.header_info h1{
+	margin: 0px;
+}
+.header_info li
+{
+	display:inline;
+	width:10%;
+	
+}
+.header_container{
+	background-color: black;
+
+}
+.nav_menu
+{
+	display:inline;
+}
+.main_content{
+	background-color: #f2f2f2;
+	top:40%;
+	position:absolute;
+	width:100%;
+	padding:10px;
+	opacity:0.9;
+}
+.headline_text{
+	padding-left: 20%;
+	float:left;
+	display: block;
+	width:35%;
+}
+.headline_text_italic{
+	font-style: italic;
+	font-family:"Times New Roman", Times, serif;
+	margin-bottom: 0px;
+}
+.headline_text_bold{
+	font-size: 69px;
+	margin-top: 0px;
+	font-family:Impact, serif;
+	color:red;
+	font-weight:100;
+
+}
+.description_text {
+	float:right;
+	display:block;
+	width:25%;
+	padding-right: 20%;
+	font-size:12px;
+	margin-top: 20px;
+}
+.description_text p:nth-child(2){
+	margin-top: 0px;
+}
+
+.main_footer{
+	position: absolute;
+	bottom:0;
+	width:100%;
+	background-color: black;
+	height: 15%;
+
+}
+.footer_list{
+	display:inline;
+	padding-left: 20%;
+	bottom: 5%;
+	position: absolute;
+}
+.footer_list li{
+	display:inline;
+	padding-right: 2px;
+	padding-left: 2px;
+}
